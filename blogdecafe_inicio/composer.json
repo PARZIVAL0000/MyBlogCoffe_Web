@@ -1,0 +1,20 @@
+{
+    "name": "usuario/blogdecafe_inicio",
+    "description": "Blog de café para cualquier cliente amante del café.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./model",
+            "Controllers\\" : "./controllers",
+            "MVC\\" : "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dennis Alexander Ponce Sánchez"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
